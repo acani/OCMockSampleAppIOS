@@ -1,0 +1,11 @@
+#include "OCMockSampleAppIOS-Prefix.pch"
+
+#ifdef __OBJC__
+
+// Frameworks
+#import <SenTestingKit/SenTestingKit.h>
+
+// Libraries
+#import <OCMock/OCMock.h>
+
+#endif

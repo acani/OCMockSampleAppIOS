@@ -1,4 +1,5 @@
 #import <SenTestingKit/SenTestingKit.h>
+#import <OCMock/OCMock.h>
 
 @interface RootViewControllerTests : SenTestCase
 
@@ -30,16 +31,16 @@
 	STAssertEquals(1, [controller tableView:nil numberOfRowsInSection:0], @"returns correct number of rows");
 }
 
-//- (void)testControllerSetsUpCellCorrectly {
-//	RootViewController *controller = [[RootViewController alloc] initWithStyle:UITableViewStylePlain];
-//	id mockTableView = [OCMockObject mockForClass:[UITableView class]];
-//	[[[mockTableView expect] andReturn:nil] dequeueReusableCellWithIdentifier:@"HelloWorldCell"];
-//
-//	UITableViewCell *cell = [controller tableView:mockTableView cellForRowAtIndexPath:nil];
-//
-//	STAssertNotNil(cell, @"returns a cell");
-//	STAssertEqualObjects(@"Hello World!", cell.textLabel.text, @"sets label");
-//	[mockTableView verify];
-//}
+- (void)testControllerSetsUpCellCorrectly {
+	RootViewController *controller = [[RootViewController alloc] initWithStyle:UITableViewStylePlain];
+	id mockTableView = [OCMockObject mockForClass:[UITableView class]];
+	[[[mockTableView expect] andReturn:nil] dequeueReusableCellWithIdentifier:@"HelloWorldCell"];
+
+	UITableViewCell *cell = [controller tableView:mockTableView cellForRowAtIndexPath:nil];
+
+	STAssertNotNil(cell, @"returns a cell");
+	STAssertEqualObjects(@"Hello World!", cell.textLabel.text, @"sets label");
+	[mockTableView verify];
+}
 
 @end

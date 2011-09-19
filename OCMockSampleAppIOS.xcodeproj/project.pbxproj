@@ -9,19 +9,13 @@
 /* Begin PBXBuildFile section */
 		C9CE935C1427D69D00E22870 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CE935B1427D69D00E22870 /* UIKit.framework */; };
 		C9CE935E1427D69D00E22870 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CE935D1427D69D00E22870 /* Foundation.framework */; };
-		C9CE93601427D69D00E22870 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CE935F1427D69D00E22870 /* CoreGraphics.framework */; };
-		C9CE93661427D69D00E22870 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9CE93641427D69D00E22870 /* InfoPlist.strings */; };
 		C9CE93681427D69D00E22870 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CE93671427D69D00E22870 /* main.m */; };
 		C9CE936C1427D69D00E22870 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CE936B1427D69D00E22870 /* AppDelegate.m */; };
-		C9CE936F1427D69D00E22870 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CE936E1427D69D00E22870 /* MasterViewController.m */; };
-		C9CE93721427D69D00E22870 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CE93711427D69D00E22870 /* DetailViewController.m */; };
-		C9CE93751427D69D00E22870 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9CE93731427D69D00E22870 /* MasterViewController.xib */; };
-		C9CE93781427D69D00E22870 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9CE93761427D69D00E22870 /* DetailViewController.xib */; };
+		C9CE936F1427D69D00E22870 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CE936E1427D69D00E22870 /* RootViewController.m */; };
 		C9CE93801427D69E00E22870 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CE937F1427D69E00E22870 /* SenTestingKit.framework */; };
 		C9CE93811427D69E00E22870 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CE935B1427D69D00E22870 /* UIKit.framework */; };
 		C9CE93821427D69E00E22870 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CE935D1427D69D00E22870 /* Foundation.framework */; };
-		C9CE938A1427D69E00E22870 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9CE93881427D69E00E22870 /* InfoPlist.strings */; };
-		C9CE938D1427D69E00E22870 /* OCMockSampleAppIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CE938C1427D69E00E22870 /* OCMockSampleAppIOSTests.m */; };
+		C9CE938D1427D69E00E22870 /* RootViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CE938C1427D69E00E22870 /* RootViewControllerTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,25 +32,17 @@
 		C9CE93571427D69D00E22870 /* OCMockSampleAppIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCMockSampleAppIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CE935B1427D69D00E22870 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C9CE935D1427D69D00E22870 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		C9CE935F1427D69D00E22870 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		C9CE93631427D69D00E22870 /* OCMockSampleAppIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCMockSampleAppIOS-Info.plist"; sourceTree = "<group>"; };
-		C9CE93651427D69D00E22870 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C9CE93671427D69D00E22870 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9CE93691427D69D00E22870 /* OCMockSampleAppIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCMockSampleAppIOS-Prefix.pch"; sourceTree = "<group>"; };
 		C9CE936A1427D69D00E22870 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C9CE936B1427D69D00E22870 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C9CE936D1427D69D00E22870 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		C9CE936E1427D69D00E22870 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		C9CE93701427D69D00E22870 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		C9CE93711427D69D00E22870 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		C9CE93741427D69D00E22870 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
-		C9CE93771427D69D00E22870 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		C9CE936D1427D69D00E22870 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C9CE936E1427D69D00E22870 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		C9CE937E1427D69E00E22870 /* OCMockSampleAppIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCMockSampleAppIOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9CE937F1427D69E00E22870 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C9CE93871427D69E00E22870 /* OCMockSampleAppIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCMockSampleAppIOSTests-Info.plist"; sourceTree = "<group>"; };
-		C9CE93891427D69E00E22870 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C9CE938B1427D69E00E22870 /* OCMockSampleAppIOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockSampleAppIOSTests.h; sourceTree = "<group>"; };
-		C9CE938C1427D69E00E22870 /* OCMockSampleAppIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMockSampleAppIOSTests.m; sourceTree = "<group>"; };
+		C9CE938C1427D69E00E22870 /* RootViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewControllerTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9CE935C1427D69D00E22870 /* UIKit.framework in Frameworks */,
 				C9CE935E1427D69D00E22870 /* Foundation.framework in Frameworks */,
-				C9CE93601427D69D00E22870 /* CoreGraphics.framework in Frameworks */,
+				C9CE935C1427D69D00E22870 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,9 +59,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9CE93801427D69E00E22870 /* SenTestingKit.framework in Frameworks */,
-				C9CE93811427D69E00E22870 /* UIKit.framework in Frameworks */,
 				C9CE93821427D69E00E22870 /* Foundation.framework in Frameworks */,
+				C9CE93811427D69E00E22870 /* UIKit.framework in Frameworks */,
+				C9CE93801427D69E00E22870 /* SenTestingKit.framework in Frameworks */,
+				C9CE93D21427F0F600E22870 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,9 +91,8 @@
 		C9CE935A1427D69D00E22870 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C9CE935B1427D69D00E22870 /* UIKit.framework */,
 				C9CE935D1427D69D00E22870 /* Foundation.framework */,
-				C9CE935F1427D69D00E22870 /* CoreGraphics.framework */,
+				C9CE935B1427D69D00E22870 /* UIKit.framework */,
 				C9CE937F1427D69E00E22870 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
@@ -118,12 +103,8 @@
 			children = (
 				C9CE936A1427D69D00E22870 /* AppDelegate.h */,
 				C9CE936B1427D69D00E22870 /* AppDelegate.m */,
-				C9CE936D1427D69D00E22870 /* MasterViewController.h */,
-				C9CE936E1427D69D00E22870 /* MasterViewController.m */,
-				C9CE93701427D69D00E22870 /* DetailViewController.h */,
-				C9CE93711427D69D00E22870 /* DetailViewController.m */,
-				C9CE93731427D69D00E22870 /* MasterViewController.xib */,
-				C9CE93761427D69D00E22870 /* DetailViewController.xib */,
+				C9CE936D1427D69D00E22870 /* RootViewController.h */,
+				C9CE936E1427D69D00E22870 /* RootViewController.m */,
 				C9CE93621427D69D00E22870 /* Supporting Files */,
 			);
 			path = OCMockSampleAppIOS;
@@ -133,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				C9CE93631427D69D00E22870 /* OCMockSampleAppIOS-Info.plist */,
-				C9CE93641427D69D00E22870 /* InfoPlist.strings */,
 				C9CE93671427D69D00E22870 /* main.m */,
 				C9CE93691427D69D00E22870 /* OCMockSampleAppIOS-Prefix.pch */,
 			);
@@ -143,8 +123,7 @@
 		C9CE93851427D69E00E22870 /* OCMockSampleAppIOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				C9CE938B1427D69E00E22870 /* OCMockSampleAppIOSTests.h */,
-				C9CE938C1427D69E00E22870 /* OCMockSampleAppIOSTests.m */,
+				C9CE938C1427D69E00E22870 /* RootViewControllerTests.m */,
 				C9CE93861427D69E00E22870 /* Supporting Files */,
 			);
 			path = OCMockSampleAppIOSTests;
@@ -154,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				C9CE93871427D69E00E22870 /* OCMockSampleAppIOSTests-Info.plist */,
-				C9CE93881427D69E00E22870 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -230,9 +208,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9CE93661427D69D00E22870 /* InfoPlist.strings in Resources */,
-				C9CE93751427D69D00E22870 /* MasterViewController.xib in Resources */,
-				C9CE93781427D69D00E22870 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +215,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9CE938A1427D69E00E22870 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,8 +243,7 @@
 			files = (
 				C9CE93681427D69D00E22870 /* main.m in Sources */,
 				C9CE936C1427D69D00E22870 /* AppDelegate.m in Sources */,
-				C9CE936F1427D69D00E22870 /* MasterViewController.m in Sources */,
-				C9CE93721427D69D00E22870 /* DetailViewController.m in Sources */,
+				C9CE936F1427D69D00E22870 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,7 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9CE938D1427D69E00E22870 /* OCMockSampleAppIOSTests.m in Sources */,
+				C9CE938D1427D69E00E22870 /* RootViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,41 +264,6 @@
 			targetProxy = C9CE93831427D69E00E22870 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C9CE93641427D69D00E22870 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9CE93651427D69D00E22870 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C9CE93731427D69D00E22870 /* MasterViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9CE93741427D69D00E22870 /* en */,
-			);
-			name = MasterViewController.xib;
-			sourceTree = "<group>";
-		};
-		C9CE93761427D69D00E22870 /* DetailViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9CE93771427D69D00E22870 /* en */,
-			);
-			name = DetailViewController.xib;
-			sourceTree = "<group>";
-		};
-		C9CE93881427D69E00E22870 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C9CE93891427D69E00E22870 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C9CE938E1427D69E00E22870 /* Debug */ = {

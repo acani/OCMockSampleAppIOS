@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9CE935C1427D69D00E22870 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CE935B1427D69D00E22870 /* UIKit.framework */; };
+		C9CE935E1427D69D00E22870 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CE935D1427D69D00E22870 /* Foundation.framework */; };
+		C9CE93601427D69D00E22870 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CE935F1427D69D00E22870 /* CoreGraphics.framework */; };
+		C9CE93661427D69D00E22870 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9CE93641427D69D00E22870 /* InfoPlist.strings */; };
+		C9CE93681427D69D00E22870 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CE93671427D69D00E22870 /* main.m */; };
+		C9CE936C1427D69D00E22870 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CE936B1427D69D00E22870 /* AppDelegate.m */; };
+		C9CE936F1427D69D00E22870 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CE936E1427D69D00E22870 /* MasterViewController.m */; };
+		C9CE93721427D69D00E22870 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CE93711427D69D00E22870 /* DetailViewController.m */; };
+		C9CE93751427D69D00E22870 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9CE93731427D69D00E22870 /* MasterViewController.xib */; };
+		C9CE93781427D69D00E22870 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9CE93761427D69D00E22870 /* DetailViewController.xib */; };
+		C9CE93801427D69E00E22870 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CE937F1427D69E00E22870 /* SenTestingKit.framework */; };
+		C9CE93811427D69E00E22870 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CE935B1427D69D00E22870 /* UIKit.framework */; };
+		C9CE93821427D69E00E22870 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CE935D1427D69D00E22870 /* Foundation.framework */; };
+		C9CE938A1427D69E00E22870 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9CE93881427D69E00E22870 /* InfoPlist.strings */; };
+		C9CE938D1427D69E00E22870 /* OCMockSampleAppIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9CE938C1427D69E00E22870 /* OCMockSampleAppIOSTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9CE93831427D69E00E22870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9CE934E1427D69D00E22870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9CE93561427D69D00E22870;
+			remoteInfo = OCMockSampleAppIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9CE93571427D69D00E22870 /* OCMockSampleAppIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCMockSampleAppIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CE935B1427D69D00E22870 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9CE935D1427D69D00E22870 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9CE935F1427D69D00E22870 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9CE93631427D69D00E22870 /* OCMockSampleAppIOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCMockSampleAppIOS-Info.plist"; sourceTree = "<group>"; };
+		C9CE93651427D69D00E22870 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9CE93671427D69D00E22870 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9CE93691427D69D00E22870 /* OCMockSampleAppIOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCMockSampleAppIOS-Prefix.pch"; sourceTree = "<group>"; };
+		C9CE936A1427D69D00E22870 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9CE936B1427D69D00E22870 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9CE936D1427D69D00E22870 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		C9CE936E1427D69D00E22870 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		C9CE93701427D69D00E22870 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C9CE93711427D69D00E22870 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C9CE93741427D69D00E22870 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		C9CE93771427D69D00E22870 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		C9CE937E1427D69E00E22870 /* OCMockSampleAppIOSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCMockSampleAppIOSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CE937F1427D69E00E22870 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C9CE93871427D69E00E22870 /* OCMockSampleAppIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCMockSampleAppIOSTests-Info.plist"; sourceTree = "<group>"; };
+		C9CE93891427D69E00E22870 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9CE938B1427D69E00E22870 /* OCMockSampleAppIOSTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMockSampleAppIOSTests.h; sourceTree = "<group>"; };
+		C9CE938C1427D69E00E22870 /* OCMockSampleAppIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCMockSampleAppIOSTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9CE93541427D69D00E22870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CE935C1427D69D00E22870 /* UIKit.framework in Frameworks */,
+				C9CE935E1427D69D00E22870 /* Foundation.framework in Frameworks */,
+				C9CE93601427D69D00E22870 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CE937A1427D69E00E22870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CE93801427D69E00E22870 /* SenTestingKit.framework in Frameworks */,
+				C9CE93811427D69E00E22870 /* UIKit.framework in Frameworks */,
+				C9CE93821427D69E00E22870 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9CE934C1427D69D00E22870 = {
+			isa = PBXGroup;
+			children = (
+				C9CE93611427D69D00E22870 /* OCMockSampleAppIOS */,
+				C9CE93851427D69E00E22870 /* OCMockSampleAppIOSTests */,
+				C9CE935A1427D69D00E22870 /* Frameworks */,
+				C9CE93581427D69D00E22870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9CE93581427D69D00E22870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE93571427D69D00E22870 /* OCMockSampleAppIOS.app */,
+				C9CE937E1427D69E00E22870 /* OCMockSampleAppIOSTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9CE935A1427D69D00E22870 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE935B1427D69D00E22870 /* UIKit.framework */,
+				C9CE935D1427D69D00E22870 /* Foundation.framework */,
+				C9CE935F1427D69D00E22870 /* CoreGraphics.framework */,
+				C9CE937F1427D69E00E22870 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9CE93611427D69D00E22870 /* OCMockSampleAppIOS */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE936A1427D69D00E22870 /* AppDelegate.h */,
+				C9CE936B1427D69D00E22870 /* AppDelegate.m */,
+				C9CE936D1427D69D00E22870 /* MasterViewController.h */,
+				C9CE936E1427D69D00E22870 /* MasterViewController.m */,
+				C9CE93701427D69D00E22870 /* DetailViewController.h */,
+				C9CE93711427D69D00E22870 /* DetailViewController.m */,
+				C9CE93731427D69D00E22870 /* MasterViewController.xib */,
+				C9CE93761427D69D00E22870 /* DetailViewController.xib */,
+				C9CE93621427D69D00E22870 /* Supporting Files */,
+			);
+			path = OCMockSampleAppIOS;
+			sourceTree = "<group>";
+		};
+		C9CE93621427D69D00E22870 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE93631427D69D00E22870 /* OCMockSampleAppIOS-Info.plist */,
+				C9CE93641427D69D00E22870 /* InfoPlist.strings */,
+				C9CE93671427D69D00E22870 /* main.m */,
+				C9CE93691427D69D00E22870 /* OCMockSampleAppIOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9CE93851427D69E00E22870 /* OCMockSampleAppIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE938B1427D69E00E22870 /* OCMockSampleAppIOSTests.h */,
+				C9CE938C1427D69E00E22870 /* OCMockSampleAppIOSTests.m */,
+				C9CE93861427D69E00E22870 /* Supporting Files */,
+			);
+			path = OCMockSampleAppIOSTests;
+			sourceTree = "<group>";
+		};
+		C9CE93861427D69E00E22870 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE93871427D69E00E22870 /* OCMockSampleAppIOSTests-Info.plist */,
+				C9CE93881427D69E00E22870 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9CE93561427D69D00E22870 /* OCMockSampleAppIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CE93901427D69E00E22870 /* Build configuration list for PBXNativeTarget "OCMockSampleAppIOS" */;
+			buildPhases = (
+				C9CE93531427D69D00E22870 /* Sources */,
+				C9CE93541427D69D00E22870 /* Frameworks */,
+				C9CE93551427D69D00E22870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCMockSampleAppIOS;
+			productName = OCMockSampleAppIOS;
+			productReference = C9CE93571427D69D00E22870 /* OCMockSampleAppIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9CE937D1427D69E00E22870 /* OCMockSampleAppIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9CE93931427D69E00E22870 /* Build configuration list for PBXNativeTarget "OCMockSampleAppIOSTests" */;
+			buildPhases = (
+				C9CE93791427D69E00E22870 /* Sources */,
+				C9CE937A1427D69E00E22870 /* Frameworks */,
+				C9CE937B1427D69E00E22870 /* Resources */,
+				C9CE937C1427D69E00E22870 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9CE93841427D69E00E22870 /* PBXTargetDependency */,
+			);
+			name = OCMockSampleAppIOSTests;
+			productName = OCMockSampleAppIOSTests;
+			productReference = C9CE937E1427D69E00E22870 /* OCMockSampleAppIOSTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9CE934E1427D69D00E22870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Diamond Dynasties, Inc.";
+			};
+			buildConfigurationList = C9CE93511427D69D00E22870 /* Build configuration list for PBXProject "OCMockSampleAppIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9CE934C1427D69D00E22870;
+			productRefGroup = C9CE93581427D69D00E22870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9CE93561427D69D00E22870 /* OCMockSampleAppIOS */,
+				C9CE937D1427D69E00E22870 /* OCMockSampleAppIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9CE93551427D69D00E22870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CE93661427D69D00E22870 /* InfoPlist.strings in Resources */,
+				C9CE93751427D69D00E22870 /* MasterViewController.xib in Resources */,
+				C9CE93781427D69D00E22870 /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CE937B1427D69E00E22870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CE938A1427D69E00E22870 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9CE937C1427D69E00E22870 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9CE93531427D69D00E22870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CE93681427D69D00E22870 /* main.m in Sources */,
+				C9CE936C1427D69D00E22870 /* AppDelegate.m in Sources */,
+				C9CE936F1427D69D00E22870 /* MasterViewController.m in Sources */,
+				C9CE93721427D69D00E22870 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9CE93791427D69E00E22870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9CE938D1427D69E00E22870 /* OCMockSampleAppIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9CE93841427D69E00E22870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9CE93561427D69D00E22870 /* OCMockSampleAppIOS */;
+			targetProxy = C9CE93831427D69E00E22870 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9CE93641427D69D00E22870 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9CE93651427D69D00E22870 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9CE93731427D69D00E22870 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9CE93741427D69D00E22870 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		C9CE93761427D69D00E22870 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9CE93771427D69D00E22870 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+		C9CE93881427D69E00E22870 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9CE93891427D69E00E22870 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9CE938E1427D69E00E22870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C9CE938F1427D69E00E22870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9CE93911427D69E00E22870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCMockSampleAppIOS/OCMockSampleAppIOS-Prefix.pch";
+				INFOPLIST_FILE = "OCMockSampleAppIOS/OCMockSampleAppIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9CE93921427D69E00E22870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCMockSampleAppIOS/OCMockSampleAppIOS-Prefix.pch";
+				INFOPLIST_FILE = "OCMockSampleAppIOS/OCMockSampleAppIOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C9CE93941427D69E00E22870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OCMockSampleAppIOS.app/OCMockSampleAppIOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCMockSampleAppIOS/OCMockSampleAppIOS-Prefix.pch";
+				INFOPLIST_FILE = "OCMockSampleAppIOSTests/OCMockSampleAppIOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C9CE93951427D69E00E22870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OCMockSampleAppIOS.app/OCMockSampleAppIOS";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCMockSampleAppIOS/OCMockSampleAppIOS-Prefix.pch";
+				INFOPLIST_FILE = "OCMockSampleAppIOSTests/OCMockSampleAppIOSTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9CE93511427D69D00E22870 /* Build configuration list for PBXProject "OCMockSampleAppIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CE938E1427D69E00E22870 /* Debug */,
+				C9CE938F1427D69E00E22870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9CE93901427D69E00E22870 /* Build configuration list for PBXNativeTarget "OCMockSampleAppIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CE93911427D69E00E22870 /* Debug */,
+				C9CE93921427D69E00E22870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9CE93931427D69E00E22870 /* Build configuration list for PBXNativeTarget "OCMockSampleAppIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9CE93941427D69E00E22870 /* Debug */,
+				C9CE93951427D69E00E22870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9CE934E1427D69D00E22870 /* Project object */;
+}

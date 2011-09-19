@@ -26,6 +26,27 @@
 			remoteGlobalIDString = C9CE93561427D69D00E22870;
 			remoteInfo = OCMockSampleAppIOS;
 		};
+		C9CE93BB1427ECBA00E22870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9CE93B21427ECB900E22870 /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C907176F1421BED300C20915;
+			remoteInfo = OCMock;
+		};
+		C9CE93BD1427ECBA00E22870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9CE93B21427ECB900E22870 /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C907171F1421A05A00C20915;
+			remoteInfo = OCMockIOS;
+		};
+		C9CE93BF1427ECBA00E22870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9CE93B21427ECB900E22870 /* OCMock.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03BF2D3708F1C69500978C59;
+			remoteInfo = OCMockTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +64,7 @@
 		C9CE937F1427D69E00E22870 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C9CE93871427D69E00E22870 /* OCMockSampleAppIOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCMockSampleAppIOSTests-Info.plist"; sourceTree = "<group>"; };
 		C9CE938C1427D69E00E22870 /* RootViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewControllerTests.m; sourceTree = "<group>"; };
+		C9CE93B21427ECB900E22870 /* OCMock.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCMock.xcodeproj; path = OCMock/OCMock.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +96,7 @@
 			children = (
 				C9CE93611427D69D00E22870 /* OCMockSampleAppIOS */,
 				C9CE93851427D69E00E22870 /* OCMockSampleAppIOSTests */,
+				C9CE93B01427EA1D00E22870 /* Libraries */,
 				C9CE935A1427D69D00E22870 /* Frameworks */,
 				C9CE93581427D69D00E22870 /* Products */,
 			);
@@ -137,6 +160,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C9CE93B01427EA1D00E22870 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE93B21427ECB900E22870 /* OCMock.xcodeproj */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		C9CE93B31427ECB900E22870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9CE93BC1427ECBA00E22870 /* OCMock.framework */,
+				C9CE93BE1427ECBA00E22870 /* libOCMock.a */,
+				C9CE93C01427ECBA00E22870 /* OCMockTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -195,6 +236,12 @@
 			mainGroup = C9CE934C1427D69D00E22870;
 			productRefGroup = C9CE93581427D69D00E22870 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C9CE93B31427ECB900E22870 /* Products */;
+					ProjectRef = C9CE93B21427ECB900E22870 /* OCMock.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C9CE93561427D69D00E22870 /* OCMockSampleAppIOS */,
@@ -202,6 +249,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C9CE93BC1427ECBA00E22870 /* OCMock.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OCMock.framework;
+			remoteRef = C9CE93BB1427ECBA00E22870 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C9CE93BE1427ECBA00E22870 /* libOCMock.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOCMock.a;
+			remoteRef = C9CE93BD1427ECBA00E22870 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C9CE93C01427ECBA00E22870 /* OCMockTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCMockTests.octest;
+			remoteRef = C9CE93BF1427ECBA00E22870 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C9CE93551427D69D00E22870 /* Resources */ = {
@@ -386,6 +457,7 @@
 				C9CE93921427D69E00E22870 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9CE93931427D69E00E22870 /* Build configuration list for PBXNativeTarget "OCMockSampleAppIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +466,7 @@
 				C9CE93951427D69E00E22870 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
